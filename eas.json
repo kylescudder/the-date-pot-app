@@ -12,13 +12,13 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
-    },
-    "android": {
-      "image": "latest"
-    },
-    "ios": {
-      "image": "latest"
+      "autoIncrement": true,
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
     }
   },
   "submit": {
