@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "the-date-pot-app",
-    "slug": "the-date-pot-app",
+    "name": "the-date-pot",
+    "slug": "the-date-pot",
     "version": "1.0.0",
+    "owner": "kylescudder",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kylescudder.thedatepot"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "687389c6-625c-44c6-a129-d17a8c91dfd0"
+      }
     }
   }
 }
