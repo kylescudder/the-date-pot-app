@@ -17,7 +17,8 @@
         "image": "latest"
       },
       "ios": {
-        "image": "latest"
+        "image": "latest",
+        "bundleIdentifier": "com.kylescudder.thedatepot"
       }
     }
   },
